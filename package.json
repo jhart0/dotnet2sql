@@ -8,6 +8,7 @@
     "type" : "git",
     "url" : "https://gitlab.com/jhart0/dotnet2sql.git"
   },
+  "types": "index.d.ts",
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
@@ -17,6 +18,7 @@
     "typescript": "^3.9.6"
   },
   "scripts": {
+    "build": "tsc",
     "test": "jest --coverage"
   },
   "author": "Josh Hart",

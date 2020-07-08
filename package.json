@@ -1,7 +1,7 @@
 {
   "name": "dotnet2sql",
   "version": "1.0.0",
-  "description": "",
+  "description": "Returns SQL Server type name for .net type",
   "main": "index.ts",
   "dependencies": {},
   "devDependencies": {
@@ -15,6 +15,6 @@
   "scripts": {
     "test": "jest --coverage"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Josh Hart",
+  "license": "MIT"
 }

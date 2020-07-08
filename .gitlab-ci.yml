@@ -8,7 +8,7 @@ build:
   stage: build
   script:
     - npm i
-    - run run build
+    - npm run build
 
 test:unit:
   dependencies:

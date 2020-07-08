@@ -4,6 +4,10 @@
   "description": "Returns SQL Server type name for .net type",
   "main": "index.ts",
   "dependencies": {},
+  "repository": {
+    "type" : "git",
+    "url" : "https://gitlab.com/jhart0/dotnet2sql.git"
+  },
   "devDependencies": {
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",

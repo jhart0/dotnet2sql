@@ -1,18 +1,9 @@
 stages:
-  - build
   - test
 
 image: node
-
-build:
-  stage: build
-  script:
-    - npm i
-    - npm run build
  
 test:unit:
-  dependencies:
-    - build
   stage: test
   script:
     - npm i

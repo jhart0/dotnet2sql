@@ -14,7 +14,7 @@ export default class dotnet2sql {
                 return 'tinyint'
             case 'bool':
             case 'Boolean':
-                return 'bool'
+                return 'bit'
             case 'string':
             case 'String':
                 return 'nvarchar'

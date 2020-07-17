@@ -1,6 +1,6 @@
 {
   "name": "dotnet2sql",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Returns SQL Server type name for .net type",
   "main": "index.ts",
   "dependencies": {},

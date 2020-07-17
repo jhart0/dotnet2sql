@@ -99,5 +99,12 @@ describe( 'dotnet2sql Tests', () => {
       const actual = dotnet2sql.getSqlTypeFromDotnet(input);
       expect(actual).toEqual(expected);
     });
+
+    test('returns uniqueidentifier', () => {
+      const input = 'Guid'
+      const expected = "uniqueidentifier"
+      const actual = dotnet2sql.getSqlTypeFromDotnet(input);
+      expect(actual).toEqual(expected);
+    });
 });
 

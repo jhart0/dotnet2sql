@@ -23,6 +23,8 @@ export default class dotnet2sql {
                 return 'decimal'
             case 'DateTime':
                 return 'datetime'
+            case 'Guid':
+                return 'uniqueidentifier'
          }
     }
 }

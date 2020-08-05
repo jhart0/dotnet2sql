@@ -106,5 +106,12 @@ describe( 'dotnet2sql Tests', () => {
       const actual = dotnet2sql.getSqlTypeFromDotnet(input);
       expect(actual).toEqual(expected);
     });
+
+    test('returns nvarchar for unknown type', () => {
+      const input = 'borg'
+      const expected = "nvarchar"
+      const actual = dotnet2sql.getSqlTypeFromDotnet(input);
+      expect(actual).toEqual(expected);
+    });
 });
 

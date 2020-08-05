@@ -25,6 +25,8 @@ export default class dotnet2sql {
                 return 'datetime'
             case 'Guid':
                 return 'uniqueidentifier'
+            default:
+                return 'nvarchar'
          }
     }
 }

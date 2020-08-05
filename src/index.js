@@ -29,6 +29,8 @@ var dotnet2sql = /** @class */ (function () {
                 return 'datetime';
             case 'Guid':
                 return 'uniqueidentifier';
+            default:
+                return 'nvarchar';
         }
     };
     return dotnet2sql;
